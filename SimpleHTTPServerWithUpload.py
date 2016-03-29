@@ -70,7 +70,7 @@ class SimpleHTTPRequestHandler(BaseHTTPServer.BaseHTTPRequestHandler):
         else:
             f.write("<strong>Failed:</strong>")
         f.write(info)
-		#f.write("<br><a href=\"%s\">back</a>" % self.headers['referer'])
+	#f.write("<br><a href=\"%s\">back</a>" % self.headers['referer'])
         f.write("here</a>.</small></body>\n</html>\n")
         length = f.tell()
         f.seek(0)
